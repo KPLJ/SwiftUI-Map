@@ -8,7 +8,7 @@
 import MapKit
 enum MapDetails {
     static let startingLocation = CLLocationCoordinate2D(latitude: 42.729921, longitude: -73.676612)
-    static let startingSpan = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+    static let startingSpan = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
 }
 
 final class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
