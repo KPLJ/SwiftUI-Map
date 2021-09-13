@@ -49,5 +49,9 @@ final class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDeleg
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         checkLocationAuthorization()
     }
+    
+    func navigateToMyself() {
+        checkLocationAuthorization()
+    }
 }
 
